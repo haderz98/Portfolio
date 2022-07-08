@@ -437,7 +437,7 @@ main {
 
 .experience-text-role {
     text-align: center;
-    color: #000;
+    color: var(--clr-primary);
     font-weight: 700;
     font-size: 25px;
     margin: 0;
@@ -445,21 +445,9 @@ main {
     line-height: normal;
 }
 
-.experience-text-date {
-  text-align: center;
-  color: #000;
-  font-size: 20px;
-  margin: 0;
-  padding-top: 1rem;
-  font-weight: 600;
-}
-
 .experience-text-desc {
   text-align: center;
-}
-
-.subTitle {
-  color: #868e96!important;
+  color: var(--clr-fg);
 }
 
 .skills__list {
