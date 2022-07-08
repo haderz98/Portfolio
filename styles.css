@@ -121,6 +121,7 @@ button {
   bottom: 0;
   background-color: var(--clr-primary);
   transition: width 0.2s ease-in;
+  border-radius: 0.2em;
 }
 
 .link:hover::before,
