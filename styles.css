@@ -347,7 +347,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
     grid-gap: 1rem 1rem;
-    gap: 1rem 4rem;
+    gap: 1rem 1rem;
 }
 
 .experience-card {
@@ -356,6 +356,7 @@ main {
   border-radius: 25px;
   border: 1px solid hsla(0,0%,82.7%,.397);
   transition: transform 0.2s linear;
+  height: 38rem;
 }
 
 .experience-card:hover {
@@ -442,13 +443,13 @@ main {
     font-weight: 700;
     font-size: 25px;
     margin: 0;
-    padding-top: 1.5rem;
+    padding: 1rem;
     line-height: normal;
 }
 
 .experience-text-desc {
-  text-align: center;
   color: var(--clr-fg);
+  font-size: 15px;
 }
 
 .skills-list {
