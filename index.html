@@ -26,26 +26,26 @@
       </h3>
 
       <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Experience</a>
+        <ul class="nav-list center">
+          <li class="nav-list-item">
+            <a class="link link-nav" href="#projects">Experience</a>
           </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
+          <li class="nav-list-item">
+            <a class="link link-nav" href="#skills">Skills</a>
           </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
+          <li class="nav-list-item">
+            <a class="link link-nav" href="#contact">Contact</a>
           </li>
         </ul>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <button type="button" aria-label="toggle theme" class="btn btn-icon">
           <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
         </button>
 
         <button
           type="button"
           aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
+          class="btn btn-icon nav-hamburger"
         >
           <i aria-hidden="true" class="fas fa-bars"></i>
         </button>
@@ -55,21 +55,21 @@
     <main>
       <!-- About -->
       <div class="about center">
-        <h1>Hi, I am <span class="about__name">Asa Hadley.</span></h1>
-        <h2 class="about__role">Software Engineer</h2>
-        <p class="about__desc">
+        <h1>Hi, I am <span class="about-name">Asa Hadley.</span></h1>
+        <h2 class="about-role">Software Engineer</h2>
+        <p class="about-desc">
           I’m a software engineer with over 3 years’ experience of developing VR/XR training experience. Hard working and keen to learn, I always want to grow and improve my skills. A passion for technology drives me to experiment with new programming languages, software and hardware.
         </p>
 
-        <div class="about__contact center">
+        <div class="about-contact center">
           <a href="https://example.com">
-            <span class="btn btn--outline">Resume</span>
+            <span class="btn btn-outline">Resume</span>
           </a>
 
           <a
             href="https://github.com/haderz98"
             aria-label="github"
-            class="link link--icon"
+            class="link link-icon"
           >
             <i aria-hidden="true" class="fab fa-github"></i>
           </a>
@@ -77,7 +77,7 @@
           <a
             href="https://www.linkedin.com/in/asa-hadley-530769143/"
             aria-label="linkedin"
-            class="link link--icon"
+            class="link link-icon"
           >
             <i aria-hidden="true" class="fab fa-linkedin"></i>
           </a>
@@ -86,41 +86,17 @@
 
       <!-- Experience -->
       <section id="projects" class="section projects">
-        <h2 class="section__title">Experience</h2>
+        <h2 class="section-title">Experience</h2>
 
-        <div class="experience-cards-div">
-          <div class="experience-card">
-            <div class="experience-banner" style="background: rgb(70, 223, 215);">
-              <div class="experience-blurred_div"></div>
-              <div class="experience-div-company">
-                <h5 class="experience-text-company">Virtual Reality Simulation Systems</h5>
-              </div>
-              <img crossorigin="anonymous" class="experience-roundedimg" src="img/vrss.png" alt="Facebook">
-            </div>
-            <div class="experience-text-details">
-              <h5 class="experience-text-role">Programmer</h5>
-              <p class="experience-text-desc">
-                •	Developed virtual reality 360 tours for the University of Wolverhampton, Great Western Railway and the Martin James Foundation.
-              </p>
-              <p class="experience-text-desc">
-                •	Created a Stop and Search training experience for GWENT Police Constabulary.
-              </p>
+        <div class="experience-grid">
 
-              <ul class="project__stack">
-                <li class="project__stack-item">Unity3D</li>
-                <li class="project__stack-item">C#</li>
-                <li class="project__stack-item">Xcode</li>
-                <li class="project__stack-item">HTML</li>
-              </ul>
-            </div>
-          </div>
           <div class="experience-card">
             <div class="experience-banner" style="background: rgb(241, 142, 215);">
-              <div class="experience-blurred_div"></div>
-              <div class="experience-div-company">
-                <h5 class="experience-text-company">Talkout</h5>
+              <div class="experience-banner-blur"></div>
+              <div class="experience-company">
+                <h5 class="experience-company-heading">Talkout</h5>
               </div>
-              <img crossorigin="anonymous" class="experience-roundedimg" src="img/to.png" alt="Facebook">
+              <img crossorigin="anonymous" class="experience-company-logo" src="img/to.png" alt="Facebook">
             </div>
             <div class="experience-text-details">
               <h5 class="experience-text-role">Software Engineer</h5>
@@ -134,37 +110,63 @@
                 •	Worked with Halfords to recreate their eMobility/eBike training in a virtual reality environment.
               </p>
 
-              <ul class="project__stack">
-                <li class="project__stack-item">Unity3D</li>
-                <li class="project__stack-item">C#</li>
-                <li class="project__stack-item">Java</li>
-                <li class="project__stack-item">Android Native</li>
+              <ul class="project-stack">
+                <li class="project-stack-item">Unity3D</li>
+                <li class="project-stack-item">C#</li>
+                <li class="project-stack-item">Java</li>
+                <li class="project-stack-item">Android Native</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="experience-banner" style="background: rgb(70, 223, 215);">
+              <div class="experience-banner-blur"></div>
+              <div class="experience-company">
+                <h5 class="experience-company-heading">Virtual Reality Simulation Systems</h5>
+              </div>
+              <img crossorigin="anonymous" class="experience-company-logo" src="img/vrss.png" alt="Facebook">
+            </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-role">Programmer</h5>
+              <p class="experience-text-desc">
+                •	Developed virtual reality 360 tours for the University of Wolverhampton, Great Western Railway and the Martin James Foundation.
+              </p>
+              <p class="experience-text-desc">
+                •	Created a Stop and Search training experience for GWENT Police Constabulary.
+              </p>
+
+              <ul class="project-stack">
+                <li class="project-stack-item">Unity3D</li>
+                <li class="project-stack-item">C#</li>
+                <li class="project-stack-item">Xcode</li>
+                <li class="project-stack-item">HTML</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Skills -->
+      <!- Skills ->
       <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">C#</li>
-          <li class="skills__list-item btn btn--plain">HTML</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">Java</li>
-          <li class="skills__list-item btn btn--plain">UI/UX Design</li>
-          <li class="skills__list-item btn btn--plain">VR/XR</li>
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-list-item btn btn-plain">C#</li>
+          <li class="skills-list-item btn btn-plain">HTML</li>
+          <li class="skills-list-item btn btn-plain">CSS</li>
+          <li class="skills-list-item btn btn-plain">Git</li>
+          <li class="skills-list-item btn btn-plain">Java</li>
+          <li class="skills-list-item btn btn-plain">UI/UX Design</li>
+          <li class="skills-list-item btn btn-plain">VR/XR</li>
 
         </ul>
       </section>
 
       <!-- Contact -->
       <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
+        <h2 class="section-title">Contact</h2>
         <a href="mailto:asa.hadley@hotmail.co.uk">
-          <span class="btn btn--outline">Email me</span>
+          <span class="btn btn-outline">Email me</span>
         </a>
       </section>
     </main>
@@ -172,7 +174,7 @@
     <footer class="footer">
       <a
         href="https://asahadley.com"
-        class="link footer__link">
+        class="link footer-link">
         Created By Asa Hadley
       </a>
     </footer>
