@@ -261,6 +261,20 @@ main {
   color: var(--clr-primary);
 }
 
+.about-icon {
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12rem;
+  height: 12rem;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
 .about-role {
   margin-top: 1.2em;
 }
