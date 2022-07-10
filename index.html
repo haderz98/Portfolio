@@ -14,7 +14,7 @@
       src="https://kit.fontawesome.com/fa62c117c7.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/resources/css/styles.css" />
     <title>Asa Hadley</title>
   </head>
   <body class="light" id="top">
@@ -55,98 +55,73 @@
     <main>
       <!-- About -->
       <div class="about center">
-        <h1>Hi, I am <span class="about-name">Asa Hadley.</span></h1>
-        <h2 class="about-role">Software Engineer</h2>
+        <h1>Hi, I'm <span class="about-name">Asa Hadley.</span></h1>
+        <h2 class="about-role">Software Engineer.</h2>
         <p class="about-desc">
-          I’m a software engineer with over 3 years’ experience of developing VR/XR training experience. Hard working and keen to learn, I always want to grow and improve my skills. A passion for technology drives me to experiment with new programming languages, software and hardware.
+          I’m a software engineer with over 3 years’ C# experience. 
+          Hard working and keen to learn, I always want to grow and improve my skills. 
+          A passion for technology drives me to experiment with new programming languages, 
+          software and hardware.
         </p>
 
         <div class="about-contact center">
-          <a href="https://example.com">
+          <a href="https://asahadley.com">
             <span class="btn btn-outline">Resume</span>
           </a>
 
-          <a
-            href="https://github.com/haderz98"
-            aria-label="github"
-            class="link link-icon"
-          >
+          <a href="https://github.com/haderz98" aria-label="github" class="link link-icon">
             <i aria-hidden="true" class="fab fa-github"></i>
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/asa-hadley-530769143/"
-            aria-label="linkedin"
-            class="link link-icon"
-          >
+          <a href="https://www.linkedin.com/in/asa-hadley-530769143/" aria-label="linkedin" class="link link-icon">
             <i aria-hidden="true" class="fab fa-linkedin"></i>
           </a>
         </div>
       </div>
 
       <!-- Experience -->
-      <section id="projects" class="section projects">
+      <section id="experience" class="section">
         <h2 class="section-title">Experience</h2>
 
-        <div class="experience-grid">
-
-          <div class="experience-card">
-            <div class="experience-banner" style="background: rgb(241, 142, 215);">
-              <div class="experience-banner-blur"></div>
-              <div class="experience-company">
-                <h5 class="experience-company-heading">Talkout</h5>
-              </div>
-              <img crossorigin="anonymous" class="experience-company-logo" src="img/to.png" alt="Facebook">
-            </div>
-            <div class="experience-text-details">
-              <h5 class="experience-text-role">Software Engineer</h5>
-              <p class="experience-text-desc">
-                •	Worked as part of a small team to develop a VR content delivery platform for the Pico Neo 3 VR headset.
-              </p>
-              <p class="experience-text-desc">
-                •	Developed a VR Fire Extinguisher Safety training module for UK Fire Group.
-              </p>
-              <p class="experience-text-desc">
-                •	Created eMobility/eBike VR training software for Halfords.
-              </p>
-            </div>
-            <ul class="project-stack">
-              <li class="project-stack-item">Unity3D</li>
-              <li class="project-stack-item">C#</li>
-              <li class="project-stack-item">Java</li>
-              <li class="project-stack-item">Android Native</li>
+        <div class="card-grid">
+          
+          <div class="card">
+            <img class="card-icon" src="resources/img/to.png" alt="Talkout">
+            <h3>Talkout</h3>
+            <p class="card-description">
+              •	Worked as part of a small team to develop a VR content delivery platform for the Pico Neo 3 VR headset.<br>
+              •	Developed a VR Fire Extinguisher Safety training module for UK Fire Group.<br>
+              •	Worked with Halfords to recreate their eMobility/eBike training in a virtual reality environment.
+            </p>
+            <ul class="card-stack">
+              <li class="card-stack-item">Unity3D</li>
+              <li class="card-stack-item">C#</li>
+              <li class="card-stack-item">Java</li>
+              <li class="card-stack-item">Android Native</li>
             </ul>
           </div>
 
-          <div class="experience-card">
-            <div class="experience-banner" style="background: rgb(70, 223, 215);">
-              <div class="experience-banner-blur"></div>
-              <div class="experience-company">
-                <h5 class="experience-company-heading">Virtual Reality Simulation Systems</h5>
-              </div>
-              <img crossorigin="anonymous" class="experience-company-logo" src="img/vrss.png" alt="Facebook">
-            </div>
-            <div class="experience-text-details">
-              <h5 class="experience-text-role">Programmer</h5>
-              <p class="experience-text-desc">
-                •	Developed virtual reality 360 tours for the University of Wolverhampton, Great Western Railway and the Martin James Foundation.
-              </p>
-              <p class="experience-text-desc">
-                •	Created a Stop and Search training experience for GWENT Police Constabulary.
-              </p>
-            </div>
-            <ul class="project-stack">
-              <li class="project-stack-item">Unity3D</li>
-              <li class="project-stack-item">C#</li>
-              <li class="project-stack-item">Xcode</li>
-              <li class="project-stack-item">HTML</li>
+          <div class="card">
+            <img class="card-icon" src="resources/img/vrss.png" alt="VRSS">
+            <h3>Virtual Reality Simulation Systems</h3>
+            <p class="card-description">
+              •	Developed virtual reality 360 tours for the University of Wolverhampton, Great Western Railway and the Martin James Foundation.<br>
+              •	Created a Stop and Search training experience for GWENT Police Constabulary.
+            </p>
+            <ul class="card-stack">
+              <li class="card-stack-item">Unity3D</li>
+              <li class="card-stack-item">C#</li>
+              <li class="card-stack-item">Xcode</li>
+              <li class="card-stack-item">HTML</li>
+              <li class="card-stack-item">CSS</li>
             </ul>
           </div>
+          
         </div>
       </section>
 
-      <!- Skills ->
-      <section class="section skills" id="skills">
+      <!-- Skills -->
+      <section class="section" id="skills">
         <h2 class="section-title">Skills</h2>
         <ul class="skills-list">
           <li class="skills-list-item btn btn-plain">C#</li>
@@ -156,7 +131,6 @@
           <li class="skills-list-item btn btn-plain">Java</li>
           <li class="skills-list-item btn btn-plain">UI/UX Design</li>
           <li class="skills-list-item btn btn-plain">VR/XR</li>
-
         </ul>
       </section>
 
@@ -172,7 +146,8 @@
     <footer class="footer">
       <a
         href="https://asahadley.com"
-        class="link footer-link">
+        class="link footer-link"
+      >
         Created By Asa Hadley
       </a>
     </footer>
@@ -185,6 +160,6 @@
     </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="/resources/js/script.js"></script>
   </body>
 </html>
