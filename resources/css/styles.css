@@ -121,6 +121,7 @@ button {
   bottom: 0;
   background-color: var(--clr-primary);
   transition: width 0.2s ease-in;
+  border-radius: 0.1em;
 }
 
 .link:hover::before,
@@ -303,6 +304,19 @@ main {
   transform: translateY(-7px);
 }
 
+.card-icon {
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+  border-radius: 50%;
+}
+
 .card-description {
   margin-top: 1em;
 }
@@ -312,6 +326,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
+  vertical-align: bottom;
 }
 
 .card-stack-item {
