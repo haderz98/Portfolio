@@ -331,6 +331,13 @@ main {
   border-radius: 50%;
 }
 
+.card-video {
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+}
+
 .card-description {
   margin-top: 1em;
 }
