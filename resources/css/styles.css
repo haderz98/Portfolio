@@ -301,12 +301,12 @@ main {
   max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(28em, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(18em, 2fr));
   grid-gap: 2em;
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
@@ -316,6 +316,10 @@ main {
 
 .card:hover {
   transform: translateY(-7px);
+}
+
+.card-container {
+  padding: 1em;
 }
 
 .card-icon {
@@ -361,6 +365,45 @@ main {
 
 .card .link-icon {
   margin-left: 0.5em;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
 }
 
 .skills-list {
